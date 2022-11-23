@@ -1,0 +1,45 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+button {
+  padding: 0.5rem;
+  width: 6rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  transition: ease-in 0.1s;
+}
+
+button:hover {
+  cursor: pointer;
+  letter-spacing: 0.15rem;
+  font-weight: bold;
+}
+
+button:first-child {
+  background-color: #14a44d;
+}
+
+button:nth-child(2) {
+  background-color: #e4a11b;
+}
+
+button:nth-child(3) {
+  background-color: #54b4d3;
+}
+
+button:last-child {
+  background-color: #dc4c64;
+}
