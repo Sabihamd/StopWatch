@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/stopwatch.css";
 
-class Stop extends Component {
+class StopWatchClass extends Component {
   constructor(props) {
     super(props);
     this.props = props;
@@ -69,14 +69,14 @@ class Stop extends Component {
           <div className="seconds">{this.state.seconds}</div>
         </div>
         <div className="buttons">
-          <button onClick={() => this.startTimer()}> Start</button>
-          <button onClick={() => this.pauseTimer()}> Pause</button>
-          <button onClick={() => this.resumeTimer()}> Resume</button>
-          <button onClick={() => this.resetTimer()}>Reset</button>
+          <button className='start' onClick={() => this.startTimer()}> Start</button>
+          <button className='pause' onClick={() => this.pauseTimer()}> Pause</button>
+          <button className='resume' onClick={() => this.resumeTimer()}> Resume</button>
+          <button className='reset' onClick={() => this.resetTimer()}>Reset</button>
         </div>
       </div>
     );
   }
 }
 
-export default Stop;
+export default StopWatchClass;

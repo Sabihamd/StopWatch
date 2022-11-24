@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import "./stopwatch.css";
 
-const StopWatch = (props) => {
+const StopWatchFunctional = () => {
   let timerInstance;
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
@@ -69,5 +69,7 @@ const StopWatch = (props) => {
     </div>
   );
 };
+// StopWatchFunctional.propTypes={
 
-export default StopWatch;
+// }
+export default StopWatchFunctional;

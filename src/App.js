@@ -1,10 +1,10 @@
 import "./styles.css";
-import Stop from "./components/Stop";
+import StopWatchClass from "./components/StopWatchClass";
 
 export default function App() {
   return (
     <div className="App">
-      <Stop />
+      <StopWatchClass />
     </div>
   );
 }
